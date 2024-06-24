@@ -15,7 +15,7 @@ function App() {
       <Router>
           <NavBar />
           <Routes>
-            <Route path='/' element={<Inicio />} />
+            <Route path='/portfolio' element={<Inicio />} />
             <Route path='/proyectos' element={<ProyectosPage />} />
             <Route path='/Tecnologias' element={<Tecnologias />} />
             <Route path='*' element={<><h1>Page Not Found</h1> <br /><Link to={'/'}>Return to Home</Link></>} />
