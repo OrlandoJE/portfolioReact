@@ -1,0 +1,32 @@
+.Proyecto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    align-self: stretch;
+    text-align: left;
+}
+
+.Proyecto img {
+    width: 45svw;
+}
+
+.Proyecto .desc {
+    width: 490px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+}
+
+.Proyecto p {
+    align-self: stretch;
+}
+
+.Proyecto .botones {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}

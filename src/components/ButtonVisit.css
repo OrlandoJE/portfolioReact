@@ -1,0 +1,53 @@
+button.ButtonVisit {
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 8px;
+    border: 1px solid var(--Heading);  
+    font-size: 1em;
+    
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    
+    cursor: pointer;    
+    transition: all 0.2s ease-in-out;
+}
+button.ButtonVisit.primary:hover {
+    background-color: transparent;
+    color: var(--Heading);
+}
+
+button.ButtonVisit svg {
+    stroke: var(--BGdark);
+    transition: all 0.2s ease-in-out;
+}
+button.ButtonVisit:hover svg {
+    stroke: var(--Heading);
+}
+
+button.ButtonVisit.primary {
+    border-color: var(--Accent);
+    background-color: var(--Accent);
+    font-weight: 600;
+
+    padding: 10px 45px;
+
+    display: flex;
+    gap: 8px;
+}
+
+button.ButtonVisit.secundary {
+    color: var(--Heading);
+    border-color: var(--Heading);
+    background-color: transparent;
+    font-weight: 400;
+
+    padding: 10px 35px;
+}
+
+button.ButtonVisit.tertiary {
+    color: var(--Heading);
+    border-color: var(--Heading);
+    background-color: transparent;
+    font-weight: 400;
+    padding: 8px 30px;
+}
