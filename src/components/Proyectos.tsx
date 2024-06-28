@@ -17,6 +17,7 @@ export const Proyectos = () => {
           description={proyecto.description || 'Error'}
           image={proyecto.image || 'Error'}
           imgTitle={proyecto.imgTitle || 'Error'}
+          link={proyecto.link || 'Error'}
         />
       ))}
     </div>

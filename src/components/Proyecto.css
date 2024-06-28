@@ -4,11 +4,10 @@
     align-items: center;
     gap: 50px;
     align-self: stretch;
-    text-align: left;
 }
 
 .Proyecto img {
-    width: 45svw;
+    width: 40svw;
 }
 
 .Proyecto .desc {
@@ -16,7 +15,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
     gap: 10px;
     align-self: stretch;
 }
@@ -29,4 +27,20 @@
     display: flex;
     align-items: center;
     gap: 20px;
+}
+
+@media (max-width: 768px) {
+    .Proyecto {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .Proyecto img {
+        width: 100%;
+        border-radius: 00px 0px 0px 0px;
+    }
+
+    .Proyecto .desc {
+        width: 100%;
+    }
 }

@@ -3,11 +3,12 @@ import "./ButtonVisit.css";
 interface ButtonProps {
   text: string;
   class: "primary" | "secundary" | "tertiary";
+  click?: () => void;
 }
 
 export const ButtonVisit = (props: ButtonProps) => {
   return (
-    <button className={`ButtonVisit ${props.class}`}>
+    <button className={`ButtonVisit ${props.class}`} onClick={props.click}>
       <span>{props.text}</span>
       {props.class === "primary" && (
         <svg

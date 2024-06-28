@@ -1,14 +1,14 @@
-import './Hero.css'
+import "./Hero.css";
 
-import Orlando from '../assets/Orlando.jpg'
-import Figma from '../assets/iconFigma.svg'
-import HTML5 from '../assets/iconHTML5.svg'
-import CSS from '../assets/iconCSS.svg'
-import JS from '../assets/iconJS.svg'
-import React from '../assets/iconReact.svg'
-import TailWindCSS from '../assets/iconTailWindCSS.svg'
+import Orlando from "../assets/Orlando.jpg";
+import Figma from "../assets/iconFigma.svg";
+import HTML5 from "../assets/iconHTML5.svg";
+import CSS from "../assets/iconCSS.svg";
+import JS from "../assets/iconJS.svg";
+import React from "../assets/iconReact.svg";
+import TailWindCSS from "../assets/iconTailWindCSS.svg";
 
-import { Button } from './Button';
+import { Button } from "./Button";
 
 export const Hero = () => {
   return (
@@ -21,8 +21,10 @@ export const Hero = () => {
             Jalisco, México.
           </p>
           <div className="botones">
-            <Button text={"Contáctame"} class={"primary"} />
-            <Button text={"Experiencia"} class={"secundary"} />
+            <Button text={"Contáctame"} class={"primary"} click={() => {}} />
+            <Button text={"Experiencia"} class={"secundary"} click={() => {
+              document.querySelector(".Proyectos")?.scrollIntoView({ behavior: "smooth" });
+            }} />
           </div>
         </div>
         <img src={Orlando} alt="Orlando" />
@@ -41,9 +43,9 @@ export const Hero = () => {
           <img src={JS} alt="JS" />
           <img src={React} alt="React" />
           <img src={TailWindCSS} alt="TailWindCSS" />
-
-          <Button text='Ver Más' class='tertiary' />
         </div>
+
+        <Button text="Ver Más" class="tertiary" click={() => {}} />
       </div>
     </div>
   );

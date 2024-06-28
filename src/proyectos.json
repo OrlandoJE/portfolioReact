@@ -4,15 +4,8 @@
     "title": "LogisNay",
     "subtitle": "Página Web para Empresa de Logística",
     "description": "Desarrollo de un sitio web estático para la empresa de logística LogisNay. La página proporciona información detallada sobre los servicios de la empresa y permite a los usuarios enviar correos electrónicos como método de contacto, utilizando PHP para el envío de los mismos.",
-    "image": "https://github.com/OrlandoJE/portfolio/blob/73cdd66f11a34e78bf412cec4f1c796d90d8ca4e/src/assets/Projects/Logisnay.png?raw=true",
-    "imgTitle": "LogisNay"
-  },
-  {
-    "id": 2,
-    "title": "LogisNayyy",
-    "subtitle": "Página Web para Empresa de Logística",
-    "description": "Desarrollo de un sitio web estático para la empresa de logística LogisNay. La página proporciona información detallada sobre los servicios de la empresa y permite a los usuarios enviar correos electrónicos como método de contacto, utilizando PHP para el envío de los mismos.",
-    "image": "https://github.com/OrlandoJE/portfolio/blob/73cdd66f11a34e78bf412cec4f1c796d90d8ca4e/src/assets/Projects/Logisnay.png?raw=true",
-    "imgTitle": "LogisNay"
+    "image": "https://github.com/OrlandoJE/portfolio/blob/main/src/assets/Projects/Logisnay.png?raw=true",
+    "imgTitle": "LogisNay",
+    "link": "https://logisnay.com"
   }
 ]

@@ -1,9 +1,9 @@
 :root {
-  --Heading: #0E0E0E;
+  --Heading: #0e0e0e;
   --Text: #333333;
-  --BGdark: #FAFAFA;
-  --BGlight: #FFFFFF;
-  --Accent: #2EC2C2;
+  --BGdark: #fafafa;
+  --BGlight: #ffffff;
+  --Accent: #2ec2c2;
 
   font-family: Poppins;
   line-height: 1.5;
@@ -24,8 +24,6 @@
 
 body {
   margin: 0;
-  min-width: 320px;
-  min-height: 100vh;
 }
 
 a {
@@ -63,7 +61,6 @@ h4 {
   color: var(--Text);
 }
 
-
 p {
   margin: 0;
   color: var(--Text);
@@ -75,15 +72,34 @@ b {
   font-weight: 600;
 }
 
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: dark) {
   :root {
-
-    --Heading: #FAFAFA;
-    --Text: #DCDCDC;
+    --Heading: #fafafa;
+    --Text: #dcdcdc;
     --BGlight: #181818;
-    --BGdark: #0E0E0E;
-    --Accent: #00AAAA;
+    --BGdark: #0e0e0e;
+    --Accent: #00aaaa;
     color: var(--Text);
     background-color: var(--BGdark);
   }
+}
+
+.force-light-mode {
+  --Heading: #0e0e0e;
+  --Text: #333333;
+  --BGdark: #fafafa;
+  --BGlight: #ffffff;
+  --Accent: #2ec2c2;
+
+  background-color: var(--BGdark);
+}
+
+.force-dark-mode {
+  --Heading: #fafafa;
+  --Text: #dcdcdc;
+  --BGlight: #181818;
+  --BGdark: #0e0e0e;
+  --Accent: #00aaaa;
+
+  background-color: var(--BGdark);
 }

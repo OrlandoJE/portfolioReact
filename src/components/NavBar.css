@@ -5,20 +5,19 @@
   justify-content: space-between;
   width: calc(100% - 12rem * 2);
   padding: 1rem 12rem;
-  
 
   background: var(--BGlight);
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.15);
-  
+
   z-index: 999;
 }
-.NavBar .logo{
+.NavBar .logo {
   color: var(--Heading);
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 600;
 }
-.NavBar .navigation{
+.NavBar .navigation {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,7 +26,7 @@
   font-size: 15px;
   font-weight: 400;
 }
-.NavBar .social{
+.NavBar .social {
   display: flex;
   width: 6.5rem;
   height: 1.5rem;
@@ -39,6 +38,23 @@
   fill: var(--Heading);
   transition: all 0.2 ease-in-out;
 }
-.NavBar svg:hover{
+.NavBar svg:hover {
   fill: var(--Accent);
+}
+
+@media (max-width: 768px) {
+  .NavBar {
+    width: calc(100% - 2.5rem * 2);
+    padding: 1rem 2.5rem;
+    justify-content: space-between;
+  }
+  .NavBar .logo {
+    font-size: 1.5rem;
+  }
+  .NavBar .navigation {
+    display: none;
+  }
+  .NavBar .social {
+    display: none;
+  }
 }

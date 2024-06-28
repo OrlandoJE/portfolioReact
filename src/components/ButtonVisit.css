@@ -17,7 +17,7 @@ button.ButtonVisit.primary:hover {
 }
 
 button.ButtonVisit svg {
-    stroke: var(--BGdark);
+    stroke: #fafafa;
     transition: all 0.2s ease-in-out;
 }
 button.ButtonVisit:hover svg {
@@ -29,7 +29,8 @@ button.ButtonVisit.primary {
     background-color: var(--Accent);
     font-weight: 600;
 
-    padding: 10px 45px;
+    width: 150px;
+    height: 45px;
 
     display: flex;
     gap: 8px;
@@ -41,13 +42,15 @@ button.ButtonVisit.secundary {
     background-color: transparent;
     font-weight: 400;
 
-    padding: 10px 35px;
+    width: 150px;
+    height: 45px;
 }
 
-button.ButtonVisit.tertiary {
-    color: var(--Heading);
-    border-color: var(--Heading);
-    background-color: transparent;
-    font-weight: 400;
-    padding: 8px 30px;
+@media (max-width: 768px) {
+    button.ButtonVisit.primary {
+        height: fit-content;
+    }
+    button.ButtonVisit.secundary {
+        height: fit-content;
+    }
 }
