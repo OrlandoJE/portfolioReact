@@ -1,9 +1,11 @@
 :root {
   --Heading: #0e0e0e;
   --Text: #333333;
-  --BGdark: #fafafa;
-  --BGlight: #ffffff;
+  --BGdark: #e6e6e6;
+  --BGlight: #f2f2f2;
   --Accent: #2ec2c2;
+  --Light: hsl(0, 0%, 90%);
+  --Dark: #0e0e0e;
 
   font-family: Poppins;
   line-height: 1.5;
@@ -74,7 +76,7 @@ b {
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --Heading: #fafafa;
+    --Heading: #f2f2f2;
     --Text: #dcdcdc;
     --BGlight: #181818;
     --BGdark: #0e0e0e;
@@ -87,15 +89,17 @@ b {
 .force-light-mode {
   --Heading: #0e0e0e;
   --Text: #333333;
-  --BGdark: #fafafa;
-  --BGlight: #ffffff;
+  --BGdark: #e6e6e6;
+  --BGlight: #f2f2f2;
   --Accent: #2ec2c2;
+  --Light: hsl(0, 0%, 90%);
+  --Dark: #0e0e0e;
 
   background-color: var(--BGdark);
 }
 
 .force-dark-mode {
-  --Heading: #fafafa;
+  --Heading: #f2f2f2;
   --Text: #dcdcdc;
   --BGlight: #181818;
   --BGdark: #0e0e0e;

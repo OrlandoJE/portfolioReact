@@ -1,0 +1,68 @@
+button {
+  justify-content: center;
+  align-items: center;
+  padding: 14px 35px;
+  border-radius: 8px;
+  border: 1px solid var(--Heading);
+  font-size: 1em;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+button.primary {
+  border-color: var(--Accent);
+  background-color: var(--Accent);
+  color: var(--Light);
+  font-weight: 600;
+}
+
+button.primary:hover {
+  background-color: transparent;
+  color: var(--Heading);
+}
+
+button.visit.primary {
+  padding: 0;
+  width: 150px;
+  height: 45px;
+  display: flex;
+  gap: 8px;
+}
+
+button.secundary {
+  color: var(--Heading);
+  border-color: var(--Heading);
+  background-color: transparent;
+  font-weight: 400;
+}
+
+button.visit.secundary {
+  padding: 0;
+  width: 150px;
+  height: 45px;
+}
+
+button.secundary:hover {
+  border-color: transparent;
+}
+
+button.tertiary {
+  color: var(--Heading);
+  border-color: var(--Heading);
+  background-color: transparent;
+  font-weight: 400;
+  padding: 8px 30px;
+}
+button.tertiary:hover {
+  border-color: transparent;
+}
+
+button svg {
+  stroke: var(--Light);
+  transition: all 0.2s ease-in-out;
+}
+button:hover svg {
+  stroke: var(--Heading);
+  transition: all 0.2s ease-in-out;
+}

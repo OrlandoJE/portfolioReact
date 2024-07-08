@@ -1,12 +1,13 @@
-import "./Proyectos.css";
+// Styles
+import './ProyectosPage.css';
+// Data
+import proyectosData from '../../proyectos.json';
+// Components
+import { Proyecto } from '../objectComponent/Proyecto';
 
-import { Proyecto } from "./Proyecto";
-import proyectosData from '../proyectos.json'
-
-
-export const Proyectos = () => {
+export const ProyectosPage = () => {
   return (
-    <div className="Proyectos" id="projects">
+    <div className='ProyectosPage'>
       <h2>Proyectos</h2>
       {proyectosData.map((proyecto) => (
         <Proyecto

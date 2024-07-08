@@ -1,13 +1,16 @@
-import { Hero } from '../components/Hero';
-import { AboutMe } from '../components/AboutMe';
-import { Proyectos } from '../components/Proyectos';
+// Page Components
+import { Hero } from '../components/pageComponent/Hero';
+import { AboutMe } from '../components/pageComponent/AboutMe';
+import { Proyectos } from '../components/pageComponent/Proyectos';
+import { BackToTop } from '../components/objectComponent/BackToTop';
 
 export const Inicio = () => {
-    return (
-      <div>
-        <Hero />
-        <AboutMe />
-        <Proyectos />
+  return (
+    <div>
+      <BackToTop />
+      <Hero />
+      <AboutMe />
+      <Proyectos />
     </div>
-  )
-}
+  );
+};

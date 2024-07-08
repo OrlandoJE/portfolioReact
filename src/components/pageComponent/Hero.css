@@ -1,0 +1,125 @@
+.Hero {
+  display: flex;
+  padding: calc(100px + 4rem) 0 100px 0;
+  flex-direction: column;
+  align-items: center;
+  gap: 86px;
+}
+.Hero .yo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 42px;
+}
+
+.Hero .yo img {
+  width: 414px;
+  border-radius: 15px;
+}
+
+.Hero .desc {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 22px;
+}
+
+.Hero p {
+  text-align: left;
+  width: 439px;
+  height: 46px;
+}
+
+.Hero .botones {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.Hero .tech {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.Hero .techText {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.Hero span {
+  color: var(--Heading);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.Hero .verticalLine {
+  width: 1px;
+  height: 30px;
+  background: var(--Heading);
+}
+
+.Hero .techs {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 80px;
+}
+
+@media (max-width: 1000px) {
+  .Hero {
+    padding: 100px 0 100px 0;
+    gap: 42px;
+  }
+
+  .Hero .yo {
+    text-align: center;
+    flex-direction: column-reverse;
+    gap: 42px;
+  }
+
+  .Hero .yo img {
+    width: 60%;
+  }
+  .Hero p {
+    margin-bottom: 3rem;
+  }
+
+  .Hero .desc {
+    align-items: center;
+    gap: 22px;
+  }
+
+  .Hero p {
+    width: 80%;
+    text-align: center;
+  }
+
+  .Hero .botones {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .Hero .tech {
+    flex-direction: column;
+    gap: 42px;
+  }
+
+  .Hero .techText {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .Hero .verticalLine {
+    display: none;
+  }
+
+  .Hero .techs {
+    justify-content: center;
+    width: 80%;
+    flex-wrap: wrap;
+    gap: 42px;
+  }
+}

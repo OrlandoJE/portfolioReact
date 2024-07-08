@@ -1,0 +1,25 @@
+.backtotop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  background-color: var(--BGlight);
+  box-shadow: 0px 0px 5px var(--Heading);
+  border-radius: 20px;
+  text-align: center;
+  font-size: 30px;
+  line-height: 50px;
+  transition: all 0.5s;
+  padding: 0;
+}
+
+.backtotop:hover {
+  transform: translateY(-5px);
+}
+
+.backtotop svg {
+  fill: var(--Heading);
+}
