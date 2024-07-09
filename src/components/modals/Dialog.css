@@ -30,9 +30,9 @@ dialog button.closeButton {
   box-shadow: -1px 1px 5px var(--Shadow);
 }
 
-dialog button {
+/* dialog .dialogContact button {
   max-width: fit-content;
-}
+} */
 
 dialog::-webkit-scrollbar {
   width: 0;

@@ -1,4 +1,4 @@
-.Proyecto {
+.project {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -6,19 +6,19 @@
   align-self: stretch;
 }
 
-.Proyecto img {
+.project img {
   width: 40svw;
 }
 
-.Proyecto img.leftImg {
+.project img.leftImg {
   border-radius: 20px 0px 0px 20px;
 }
 
-.Proyecto img.rightImg {
+.project img.rightImg {
   border-radius: 0px 20px 20px 0px;
 }
 
-.Proyecto .desc {
+.project .desc {
   width: 490px;
   display: flex;
   flex-direction: column;
@@ -27,39 +27,39 @@
   align-self: stretch;
 }
 
-.Proyecto p {
+.project p {
   align-self: stretch;
 }
 
-.Proyecto .botones {
+.project .buttons {
   display: flex;
   align-items: center;
   gap: 20px;
 }
 
 @media (max-width: 1000px) {
-  .Proyecto {
+  .project {
     flex-direction: column;
     gap: 20px;
   }
 
-  .Proyecto.rightDesc {
+  .project.rightDesc {
     flex-direction: column-reverse;
   }
 
-  .Proyecto img {
+  .project img {
     width: 100%;
   }
 
-  .Proyecto img.leftImg {
+  .project img.leftImg {
     border-radius: 20px 20px 20px 20px;
   }
 
-  .Proyecto img.rightImg {
+  .project img.rightImg {
     border-radius: 20px 20px 20px 20px;
   }
 
-  .Proyecto .desc {
+  .project .desc {
     width: 100%;
   }
 }

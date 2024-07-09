@@ -1,42 +1,42 @@
-.Hero {
+.hero {
   display: flex;
   padding: calc(100px + 4rem) 0 100px 0;
   flex-direction: column;
   align-items: center;
   gap: 86px;
 }
-.Hero .yo {
+.hero .yo {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 42px;
 }
 
-.Hero .yo img {
+.hero .yo img {
   width: 414px;
   border-radius: 15px;
 }
 
-.Hero .desc {
+.hero .desc {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 22px;
 }
 
-.Hero p {
+.hero p {
   text-align: left;
   width: 439px;
   height: 46px;
 }
 
-.Hero .botones {
+.hero .buttons {
   display: flex;
   align-items: flex-start;
   gap: 2rem;
 }
 
-.Hero .tech {
+.hero .tech {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -44,25 +44,25 @@
   width: 70%;
 }
 
-.Hero .techText {
+.hero .techText {
   display: flex;
   align-items: center;
   gap: 30px;
 }
 
-.Hero span {
+.hero span {
   color: var(--Heading);
   font-size: 14px;
   font-weight: 600;
 }
 
-.Hero .verticalLine {
+.hero .verticalLine {
   width: 1px;
   height: 30px;
   background: var(--Heading);
 }
 
-.Hero .techs {
+.hero .techs {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -71,55 +71,55 @@
 }
 
 @media (max-width: 1000px) {
-  .Hero {
+  .hero {
     padding: 100px 0 100px 0;
     gap: 42px;
   }
 
-  .Hero .yo {
+  .hero .yo {
     text-align: center;
     flex-direction: column-reverse;
     gap: 42px;
   }
 
-  .Hero .yo img {
+  .hero .yo img {
     width: 60%;
   }
-  .Hero p {
+  .hero p {
     margin-bottom: 3rem;
   }
 
-  .Hero .desc {
+  .hero .desc {
     align-items: center;
     gap: 22px;
   }
 
-  .Hero p {
+  .hero p {
     width: 80%;
     text-align: center;
   }
 
-  .Hero .botones {
+  .hero .buttons {
     flex-direction: column;
     align-items: center;
     gap: 1rem;
   }
 
-  .Hero .tech {
+  .hero .tech {
     flex-direction: column;
     gap: 42px;
   }
 
-  .Hero .techText {
+  .hero .techText {
     flex-direction: column;
     gap: 15px;
   }
 
-  .Hero .verticalLine {
+  .hero .verticalLine {
     display: none;
   }
 
-  .Hero .techs {
+  .hero .techs {
     justify-content: center;
     width: 80%;
     flex-wrap: wrap;

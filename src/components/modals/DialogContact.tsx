@@ -1,5 +1,5 @@
 import './Dialog.css';
-import './DialogContacto.css';
+import './DialogContact.css';
 
 // Icons
 import { MailIcon } from '../../assets/TSXicons/MailIcon';
@@ -10,21 +10,21 @@ const clickMail = () => {
   window.location.href = `mailto:orlandoesparza6@outlook.com`;
 };
 
-export const DialogContacto = () => {
+export const DialogContact = () => {
   return (
-    <dialog className='dialogContacto'>
+    <dialog className='dialogContact'>
       <button
         className='closeButton'
         onClick={() => {
           const dialog = document.querySelector(
-            '.dialogContacto'
+            '.dialogContact'
           ) as HTMLDialogElement;
           dialog?.close();
         }}
       >
         X
       </button>
-      <div className='Contacto'>
+      <div className='contact'>
         <h2>Contáctame</h2>
         <div className='contactMethods'>
           <div

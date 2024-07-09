@@ -29,7 +29,7 @@ export const HamburgerMenu = () => {
           to={'/portfolio'}
           onClick={() => {
             setIsActive(!isActive);
-            const element = document.querySelector('.Hero');
+            const element = document.querySelector('.hero');
             element?.scrollIntoView({ behavior: 'smooth' });
           }}
         >
@@ -39,7 +39,7 @@ export const HamburgerMenu = () => {
           to={'/portfolio'}
           onClick={() => {
             setIsActive(!isActive);
-            const element = document.querySelector('.Acerca');
+            const element = document.querySelector('.aboutMe');
             element?.scrollIntoView({ behavior: 'smooth' });
           }}
         >
@@ -49,13 +49,24 @@ export const HamburgerMenu = () => {
           to={'/portfolio'}
           onClick={() => {
             setIsActive(!isActive);
-            const element = document.querySelector('.Proyectos');
+            const element = document.querySelector('.projects');
             element?.scrollIntoView({ behavior: 'smooth' });
           }}
         >
           Proyectos
         </Link>
-        <Link to={'/portfolio'}>Contacto</Link>
+        <Link
+          to={'/portfolio'}
+          onClick={() => {
+            setIsActive(!isActive);
+            const dialog = document.querySelector(
+              '.dialogContact'
+            ) as HTMLDialogElement;
+            dialog?.showModal();
+          }}
+        >
+          Contacto
+        </Link>
 
         <Link
           to={'#'}

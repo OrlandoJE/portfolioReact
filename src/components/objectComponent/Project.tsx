@@ -1,9 +1,9 @@
 // Styles
-import './Proyecto.css';
+import './Project.css';
 // Components
-import { Button } from '../objectComponent/Button';
+import { Button } from './Button';
 
-interface ProyectoProps {
+interface ProjectProps {
   id: number;
   title: string;
   subtitle: string;
@@ -13,9 +13,12 @@ interface ProyectoProps {
   link: string;
 }
 
-export const Proyecto = (props: ProyectoProps) => {
+export const Project = (props: ProjectProps) => {
   return (
-    <div className={`Proyecto ${props.id % 2 === 0 && 'rightDesc'}`} id={props.id.toString()}>
+    <div
+      className={`project ${props.id % 2 === 0 && 'rightDesc'}`}
+      id={props.id.toString()}
+    >
       {props.id % 2 === 1 ? (
         <>
           <img src={props.image} alt={props.imgTitle} className='leftImg' />
@@ -26,7 +29,7 @@ export const Proyecto = (props: ProyectoProps) => {
             <h4>{props.subtitle}</h4>
             <h2>{props.title}</h2>
             <p>{props.description}</p>
-            <div className='botones'>
+            <div className='buttons'>
               <Button
                 class='primary'
                 text='Visitar'
@@ -53,7 +56,7 @@ export const Proyecto = (props: ProyectoProps) => {
             <h4>{props.subtitle}</h4>
             <h2>{props.title}</h2>
             <p>{props.description}</p>
-            <div className='botones'>
+            <div className='buttons'>
               <Button
                 class='primary'
                 text='Visitar'

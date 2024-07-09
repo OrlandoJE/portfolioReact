@@ -1,4 +1,4 @@
-.dialogContacto {
+.dialogContact {
   width: fit-content;
   height: fit-content;
   position: fixed; /* Changed from absolute to fixed */
@@ -7,14 +7,14 @@
   transform: translate(-50%, -50%);
 }
 
-.dialogContacto .closeButton {
+.dialogContact .closeButton {
   position: absolute;
   top: 0;
   right: 0;
   margin: 0;
 }
 
-.Contacto {
+.contact {
   padding: 5rem 0;
   display: flex;
   flex-direction: column;
@@ -24,12 +24,12 @@
   transition: all 0.1s ease-in;
 }
 
-.Contacto .contactMethods {
+.contact .contactMethods {
   display: flex;
   gap: 2rem;
 }
 
-.Contacto .contactMethod {
+.contact .contactMethod {
   display: flex;
   justify-content: flex-start;
   gap: 1rem;
@@ -41,27 +41,27 @@
   min-width: calc(315px - 20px * 2);
   cursor: pointer;
 }
-.Contacto .contactMethod:hover {
+.contact .contactMethod:hover {
   box-shadow: 0 0 5px 5px var(--Shadow);
 }
 
-.Contacto .contactMethod h4,
-.Contacto .contactMethod span {
+.contact .contactMethod h4,
+.contact .contactMethod span {
   transition: all 0.1s ease-in;
 }
 
-.Contacto .contactMethod:hover svg,
-.Contacto .contactMethod:hover h4,
-.Contacto .contactMethod:hover span {
+.contact .contactMethod:hover svg,
+.contact .contactMethod:hover h4,
+.contact .contactMethod:hover span {
   color: var(--Accent);
   fill: var(--Accent);
 }
 
-.Contacto .contactMethod svg {
+.contact .contactMethod svg {
   width: 2rem;
 }
 
-.Contacto .divisor {
+.contact .divisor {
   display: flex;
   gap: 2rem;
   justify-content: space-around;
@@ -69,7 +69,7 @@
   width: 90%;
 }
 
-.Contacto .line {
+.contact .line {
   width: 100%;
   height: 4px;
   border-radius: 20px;
@@ -107,15 +107,15 @@ form button {
 }
 
 @media (max-width: 768px) {
-  .Contacto .contactMethods {
+  .contact .contactMethods {
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .Contacto .contactMethod {
+  .contact .contactMethod {
     width: fit-content;
   }
-  .Contacto span {
+  .contact span {
     font-size: 0.8rem;
   }
   form {

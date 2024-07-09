@@ -1,16 +1,16 @@
 // Page Components
 import { Hero } from '../components/pageComponent/Hero';
 import { AboutMe } from '../components/pageComponent/AboutMe';
-import { Proyectos } from '../components/pageComponent/Proyectos';
+import { Projects } from '../components/pageComponent/Projects';
 import { BackToTop } from '../components/objectComponent/BackToTop';
 
-export const Inicio = () => {
+export const Home = () => {
   return (
     <div>
       <BackToTop />
       <Hero />
       <AboutMe />
-      <Proyectos />
+      <Projects />
     </div>
   );
 };

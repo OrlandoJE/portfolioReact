@@ -15,7 +15,7 @@ import { Button } from '../objectComponent/Button';
 
 export const Hero = () => {
   return (
-    <div className='Hero'>
+    <div className='hero'>
       <div className='yo'>
         <div className='desc'>
           <h1>Desarrollador Web</h1>
@@ -23,13 +23,13 @@ export const Hero = () => {
             Hola, soy Orlando Jiménez. Un desarrollador Front-End que reside en
             Jalisco, México.
           </p>
-          <div className='botones'>
+          <div className='buttons'>
             <Button
               text={'Contáctame'}
               class={'primary'}
               click={() => {
                 const dialog = document.querySelector(
-                  '.dialogContacto'
+                  '.dialogContact'
                 ) as HTMLDialogElement;
                 dialog?.showModal();
               }}
@@ -39,7 +39,7 @@ export const Hero = () => {
               class={'secundary'}
               click={() => {
                 document
-                  .querySelector('.Proyectos')
+                  .querySelector('.projects')
                   ?.scrollIntoView({ behavior: 'smooth' });
               }}
             />

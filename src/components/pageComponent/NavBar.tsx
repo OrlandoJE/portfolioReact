@@ -10,11 +10,11 @@ import { DarkModeIcon } from '../../assets/TSXicons/DarkModeIcon';
 
 export const NavBar = () => {
   return (
-    <div className='NavBar'>
+    <div className='navBar'>
       <Link
         to={'/portfolio'}
         onClick={() => {
-          const element = document.querySelector('.Hero');
+          const element = document.querySelector('.hero');
           element?.scrollIntoView({ behavior: 'smooth' });
         }}
         className='logo'
@@ -25,7 +25,7 @@ export const NavBar = () => {
         <Link
           to={'/portfolio'}
           onClick={() => {
-            const element = document.querySelector('.Hero');
+            const element = document.querySelector('.hero');
             element?.scrollIntoView({ behavior: 'smooth' });
           }}
         >
@@ -34,7 +34,7 @@ export const NavBar = () => {
         <Link
           to={'/portfolio'}
           onClick={() => {
-            const element = document.querySelector('.Acerca');
+            const element = document.querySelector('.aboutMe');
             element?.scrollIntoView({ behavior: 'smooth' });
           }}
         >
@@ -43,7 +43,7 @@ export const NavBar = () => {
         <Link
           to={'/portfolio'}
           onClick={() => {
-            const element = document.querySelector('.Proyectos');
+            const element = document.querySelector('.projects');
             element?.scrollIntoView({ behavior: 'smooth' });
           }}
         >
@@ -53,7 +53,7 @@ export const NavBar = () => {
           to={'/portfolio'}
           onClick={() => {
             const dialog = document.querySelector(
-              '.dialogContacto'
+              '.dialogContact'
             ) as HTMLDialogElement;
             dialog?.showModal();
           }}

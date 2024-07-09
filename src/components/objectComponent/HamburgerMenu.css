@@ -64,11 +64,6 @@
   transform: translateX(0);
 }
 
-.contacto {
-  font-weight: 600;
-  color: var(--Accent);
-}
-
 .menu a:hover svg {
   fill: var(--Accent);
 }

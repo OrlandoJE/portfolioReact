@@ -1,3 +1,4 @@
+/* General Document Styles */
 :root {
   --Heading: #0e0e0e;
   --Text: #333333;
@@ -24,11 +25,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 body {
   margin: 0;
 }
-
 a {
   color: var(--Heading);
   text-decoration: none;
@@ -38,7 +37,6 @@ a {
 a:hover {
   color: var(--Accent);
 }
-
 h1 {
   margin: 0;
   font-size: 2.5rem;
@@ -63,22 +61,18 @@ h4 {
   font-weight: 500;
   color: var(--Text);
 }
-
 p {
   margin: 0;
   color: var(--Text);
   font-size: 1rem;
   font-weight: 400;
 }
-
 span {
   color: var(--Text);
 }
-
 b {
   font-weight: 600;
 }
-
 svg {
   transition: all 0.2s;
 }
@@ -106,7 +100,6 @@ svg {
 
   background-color: var(--BGdark);
 }
-
 .force-dark-mode {
   --Heading: #f2f2f2;
   --Text: #dcdcdc;

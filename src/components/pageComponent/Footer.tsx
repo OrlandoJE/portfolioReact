@@ -7,7 +7,7 @@ import { LinkedInIcon } from '../../assets/TSXicons/LinkedInIcon';
 
 export const Footer = () => {
   return (
-    <div className='Footer'>
+    <div className='footer'>
       <span>Copyright © 2024. All rights are reserved</span>
       <div className='socialLinks'>
         <Link to={'https://github.com/OrlandoJE'} target='_blank'>

@@ -1,4 +1,4 @@
-.NavBar {
+.navBar {
   position: fixed;
   display: flex;
   align-items: center;
@@ -11,12 +11,12 @@
 
   z-index: 999;
 }
-.NavBar .logo {
+.navBar .logo {
   color: var(--Heading);
   font-size: 1.5rem;
   font-weight: 600;
 }
-.NavBar .navigation {
+.navBar .navigation {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,7 +25,7 @@
   font-size: 15px;
   font-weight: 400;
 }
-.NavBar .social {
+.navBar .social {
   display: flex;
   width: 6.5rem;
   height: 1.5rem;
@@ -33,27 +33,27 @@
   gap: 1rem;
 }
 
-.NavBar svg {
+.navBar svg {
   fill: var(--Heading);
   transition: all 0.2 ease-in-out;
 }
-.NavBar svg:hover {
+.navBar svg:hover {
   fill: var(--Accent);
 }
 
 @media (max-width: 1000px) {
-  .NavBar {
+  .navBar {
     width: calc(100% - 2.5rem * 2);
     padding: 1rem 2.5rem;
     justify-content: space-between;
   }
-  .NavBar .logo {
+  .navBar .logo {
     font-size: 1.5rem;
   }
-  .NavBar .navigation {
+  .navBar .navigation {
     display: none;
   }
-  .NavBar .social {
+  .navBar .social {
     display: none;
   }
 }

@@ -5,7 +5,7 @@ import Laptop from '../../assets/Laptop.png';
 
 export const AboutMe = () => {
   return (
-    <div className='Acerca'>
+    <div className='aboutMe'>
       <img src={Laptop} alt='Laptop' />
       <div className='desc'>
         <h3>Acerca de Mí</h3>

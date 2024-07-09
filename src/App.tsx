@@ -1,14 +1,11 @@
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-// Styles
-import './App.css';
 // Pages
-import { Inicio } from './pages/Inicio';
+import { Home } from './pages/Home';
 // Components
 import { NavBar } from './components/pageComponent/NavBar';
 import { Footer } from './components/pageComponent/Footer';
-
-import { DialogContacto } from './components/modals/DialogContacto';
-import { DialogProyectosPage } from './components/modals/DialogProyectos';
+import { DialogContact } from './components/modals/DialogContact';
+import { DialogProjectsPage } from './components/modals/DialogProjects';
 
 function App() {
   return (
@@ -16,7 +13,7 @@ function App() {
       <Router>
         <NavBar />
         <Routes>
-          <Route path='/portfolio' element={<Inicio />} />
+          <Route path='/portfolio' element={<Home />} />
           <Route
             path='*'
             element={
@@ -31,8 +28,9 @@ function App() {
         </Routes>
         <Footer />
       </Router>
-      <DialogContacto />
-      <DialogProyectosPage />
+      {/* Dialogs / Modals */}
+      <DialogContact />
+      <DialogProjectsPage />
     </>
   );
 }

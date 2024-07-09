@@ -1,4 +1,4 @@
-.Footer {
+.footer {
   width: calc(100% - 12rem * 2);
   height: 10rem;
   display: flex;
@@ -8,25 +8,25 @@
   background-color: var(--BGlight);
   border-radius: 20px 20px 0 0;
 }
-.Footer span {
+.footer span {
   color: var(--Heading);
   width: 60%;
 }
-.Footer .socialLinks {
+.footer .socialLinks {
   display: flex;
   justify-content: space-around;
   align-items: center;
   gap: 1rem;
 }
-.Footer svg {
+.footer svg {
   fill: var(--Heading);
 }
-.Footer svg:hover {
+.footer svg:hover {
   fill: var(--Accent);
 }
 
 @media screen and (max-width: 768px) {
-  .Footer {
+  .footer {
     width: calc(100% - 2rem * 2);
     padding: 0 2rem;
     height: 14rem;
