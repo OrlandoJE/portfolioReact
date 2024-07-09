@@ -6,7 +6,7 @@ import { HamburgerMenu } from '../objectComponent/HamburgerMenu';
 // Icons
 import { GitHubIcon } from '../../assets/TSXicons/GitHubIcon';
 import { LinkedInIcon } from '../../assets/TSXicons/LinkedInIcon';
-import { DarkModeIcon } from '../../assets/TSXicons/DarModeIcon';
+import { DarkModeIcon } from '../../assets/TSXicons/DarkModeIcon';
 
 export const NavBar = () => {
   return (
@@ -49,7 +49,17 @@ export const NavBar = () => {
         >
           Proyectos
         </Link>
-        <Link to={'/portfolio'}>Contacto</Link>
+        <Link
+          to={'/portfolio'}
+          onClick={() => {
+            const dialog = document.querySelector(
+              '.dialogContacto'
+            ) as HTMLDialogElement;
+            dialog?.showModal();
+          }}
+        >
+          Contacto
+        </Link>
       </div>
 
       <div className='social'>

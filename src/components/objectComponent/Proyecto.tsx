@@ -15,14 +15,10 @@ interface ProyectoProps {
 
 export const Proyecto = (props: ProyectoProps) => {
   return (
-    <div className='Proyecto' id={props.id.toString()}>
+    <div className={`Proyecto ${props.id % 2 === 0 && 'rightDesc'}`} id={props.id.toString()}>
       {props.id % 2 === 1 ? (
         <>
-          <img
-            src={props.image}
-            alt={props.imgTitle}
-            style={{ borderRadius: '20px 0px 0px 20px' }}
-          />
+          <img src={props.image} alt={props.imgTitle} className='leftImg' />
           <div
             className='desc'
             style={{ textAlign: 'left', alignItems: 'flex-start' }}
@@ -74,11 +70,7 @@ export const Proyecto = (props: ProyectoProps) => {
               /> */}
             </div>
           </div>
-          <img
-            src={props.image}
-            alt={props.imgTitle}
-            style={{ borderRadius: '0px 20px 20px 0px' }}
-          />
+          <img src={props.image} alt={props.imgTitle} className='rightImg' />
         </>
       )}
     </div>

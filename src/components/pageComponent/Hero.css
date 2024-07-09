@@ -40,13 +40,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 100px;
+  gap: 80px;
+  width: 70%;
 }
 
 .Hero .techText {
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 30px;
 }
 
 .Hero span {
@@ -63,8 +64,9 @@
 
 .Hero .techs {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   gap: 80px;
 }
 
@@ -99,6 +101,7 @@
 
   .Hero .botones {
     flex-direction: column;
+    align-items: center;
     gap: 1rem;
   }
 

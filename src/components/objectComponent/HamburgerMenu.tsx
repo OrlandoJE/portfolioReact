@@ -3,7 +3,7 @@ import { useState } from 'react';
 // Styles
 import './HamburgerMenu.css';
 // Icons
-import { DarkModeIcon } from '../../assets/TSXicons/DarModeIcon';
+import { DarkModeIcon } from '../../assets/TSXicons/DarkModeIcon';
 import { GitHubIcon } from '../../assets/TSXicons/GitHubIcon';
 import { LinkedInIcon } from '../../assets/TSXicons/LinkedInIcon';
 
@@ -25,18 +25,37 @@ export const HamburgerMenu = () => {
       </div>
 
       <div className={`menu ${isActive ? 'active' : ''}`}>
-        <a href='#' onClick={toggleMenu}>
+        <Link
+          to={'/portfolio'}
+          onClick={() => {
+            setIsActive(!isActive);
+            const element = document.querySelector('.Hero');
+            element?.scrollIntoView({ behavior: 'smooth' });
+          }}
+        >
           Inicio
-        </a>
-        <a href='#about' onClick={toggleMenu}>
+        </Link>
+        <Link
+          to={'/portfolio'}
+          onClick={() => {
+            setIsActive(!isActive);
+            const element = document.querySelector('.Acerca');
+            element?.scrollIntoView({ behavior: 'smooth' });
+          }}
+        >
           Acerca de mí
-        </a>
-        <a href='#projects' onClick={toggleMenu}>
-          Trayectoria
-        </a>
-        <a href='#contact' onClick={toggleMenu} className='contacto'>
-          Contacto
-        </a>
+        </Link>
+        <Link
+          to={'/portfolio'}
+          onClick={() => {
+            setIsActive(!isActive);
+            const element = document.querySelector('.Proyectos');
+            element?.scrollIntoView({ behavior: 'smooth' });
+          }}
+        >
+          Proyectos
+        </Link>
+        <Link to={'/portfolio'}>Contacto</Link>
 
         <Link
           to={'#'}
@@ -56,7 +75,13 @@ export const HamburgerMenu = () => {
           <span> Switch Theme</span>
         </Link>
 
-        <Link to={'https://github.com/OrlandoJE'} target='_blank'>
+        <Link
+          to={'https://github.com/OrlandoJE'}
+          target='_blank'
+          onClick={() => {
+            setIsActive(!isActive);
+          }}
+        >
           <GitHubIcon />
           <span> GitHub</span>
         </Link>
@@ -64,6 +89,9 @@ export const HamburgerMenu = () => {
         <Link
           to={'https://www.linkedin.com/in/orlandojimenezesparza/'}
           target='_blank'
+          onClick={() => {
+            setIsActive(!isActive);
+          }}
         >
           <LinkedInIcon />
           <span> LinkedIn</span>

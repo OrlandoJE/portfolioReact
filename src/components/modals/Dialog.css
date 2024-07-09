@@ -5,13 +5,13 @@ dialog {
   z-index: 1;
   width: calc(90% - 60px);
   height: calc(90% - 60px);
-  overflow: auto;
+  overflow: scroll;
   margin: 0;
-  padding: 30px 30px;
+  padding: 20px 30px;
   border-radius: 20px;
   background-color: var(--BGdark);
   border: none;
-  box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.15);
+  box-shadow: 0 0 10px var(--Shadow);
   transition: all 0.5s;
 }
 dialog::backdrop {
@@ -25,10 +25,19 @@ dialog button.closeButton {
   margin: 0;
   border-radius: 0 20px 0 20px;
   background-color: var(--BGlight);
-  color: var(--text);
+  color: var(--Heading);
   border: 0px;
+  box-shadow: -1px 1px 5px var(--Shadow);
+}
+
+dialog button {
+  max-width: fit-content;
 }
 
 dialog::-webkit-scrollbar {
   width: 0;
+}
+
+dialog svg {
+  fill: var(--Heading);
 }

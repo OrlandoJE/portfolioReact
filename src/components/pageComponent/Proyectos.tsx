@@ -7,8 +7,7 @@ import { Proyecto } from '../objectComponent/Proyecto';
 import { Button } from '../objectComponent/Button';
 
 export const Proyectos = () => {
-  const reversedProyectosData = [...proyectosData].reverse();
-  const slicedProyectosData = reversedProyectosData.slice(0, 3);
+  const slicedProyectosData = [...proyectosData].reverse().slice(0, 3);
   return (
     <div className='Proyectos'>
       <h2>Proyectos</h2>
@@ -24,14 +23,18 @@ export const Proyectos = () => {
           link={proyecto.link || 'Error'}
         />
       ))}
-      <Button
-        text='Ver Más...'
-        class='secundary'
-        click={() => {
-          const dialog = document.querySelector('dialog') as HTMLDialogElement;
-          dialog?.showModal();
-        }}
-      />
+      {proyectosData.length > 3 && (
+        <Button
+          text='Ver Más...'
+          class='secundary'
+          click={() => {
+            const dialog = document.querySelector(
+              '.dialogProyectosPage'
+            ) as HTMLDialogElement;
+            dialog?.showModal();
+          }}
+        />
+      )}
     </div>
   );
 };

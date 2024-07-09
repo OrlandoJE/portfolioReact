@@ -2,12 +2,12 @@
   position: fixed;
   bottom: 20px;
   right: 20px;
-  z-index: 1000;
+  z-index: 1;
   cursor: pointer;
   width: 50px;
   height: 50px;
   background-color: var(--BGlight);
-  box-shadow: 0px 0px 5px var(--Heading);
+  box-shadow: 0px 0px 5px 5px var(--Shadow);
   border-radius: 20px;
   text-align: center;
   font-size: 30px;
@@ -18,6 +18,7 @@
 
 .backtotop:hover {
   transform: translateY(-5px);
+  box-shadow: 0px 1px 5px 5px var(--Shadow);
 }
 
 .backtotop svg {

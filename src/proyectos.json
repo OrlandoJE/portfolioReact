@@ -7,41 +7,5 @@
     "image": "https://github.com/OrlandoJE/portfolio/blob/main/src/assets/Projects/Logisnay.png?raw=true",
     "imgTitle": "LogisNay",
     "link": "https://logisnay.com"
-  },
-  {
-    "id": 2,
-    "title": "Covid-19 Tracker",
-    "subtitle": "Seguimiento de Casos de Covid-19",
-    "description": "Desarrollo de una aplicación web que permite a los usuarios seguir la evolución de los casos de Covid-19 en todo el mundo. La aplicación muestra estadísticas globales y por país, así como un gráfico de líneas que muestra la evolución de los casos confirmados, recuperados y fallecidos.",
-    "image": "https://github.com/OrlandoJE/portfolio/blob/main/src/assets/Projects/Logisnay.png?raw=true",
-    "imgTitle": "LogisNay",
-    "link": "https://logisnay.com"
-  },
-  {
-    "id": 3,
-    "title": "Weather App",
-    "subtitle": "Aplicación de Pronóstico del Tiempo",
-    "description": "Desarrollo de una aplicación web que permite a los usuarios obtener el pronóstico del tiempo para cualquier ciudad del mundo. La aplicación muestra la temperatura actual, la temperatura máxima y mínima del día, la velocidad del viento y la dirección, la humedad y la presión atmosférica.",
-    "image": "https://github.com/OrlandoJE/portfolio/blob/main/src/assets/Projects/Logisnay.png?raw=true",
-    "imgTitle": "LogisNay",
-    "link": "https://logisnay.com"
-  },
-  {
-    "id": 4,
-    "title": "To-Do List",
-    "subtitle": "Lista de Tareas Pendientes",
-    "description": "Desarrollo de una aplicación web que permite a los usuarios crear una lista de tareas pendientes. La aplicación permite añadir, editar y eliminar tareas, así como marcarlas como completadas. La lista de tareas se almacena en el almacenamiento local del navegador.",
-    "image": "https://github.com/OrlandoJE/portfolio/blob/main/src/assets/Projects/Logisnay.png?raw=true",
-    "imgTitle": "LogisNay",
-    "link": "https://logisnay.com"
-  },
-  {
-    "id": 5,
-    "title": "Calculator",
-    "subtitle": "Calculadora en Línea",
-    "description": "Desarrollo de una calculadora en línea que permite a los usuarios realizar operaciones matemáticas básicas. La calculadora muestra el historial de operaciones realizadas y permite borrar la última operación o borrar todas las operaciones.",
-    "image": "https://github.com/OrlandoJE/portfolio/blob/main/src/assets/Projects/Logisnay.png?raw=true",
-    "imgTitle": "LogisNay",
-    "link": "https://logisnay.com"
   }
 ]

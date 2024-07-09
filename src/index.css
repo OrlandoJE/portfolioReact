@@ -6,6 +6,7 @@
   --Accent: #2ec2c2;
   --Light: hsl(0, 0%, 90%);
   --Dark: #0e0e0e;
+  --Shadow: rgba(14, 14, 14, 0.15);
 
   font-family: Poppins;
   line-height: 1.5;
@@ -70,8 +71,16 @@ p {
   font-weight: 400;
 }
 
+span {
+  color: var(--Text);
+}
+
 b {
   font-weight: 600;
+}
+
+svg {
+  transition: all 0.2s;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -81,6 +90,7 @@ b {
     --BGlight: #181818;
     --BGdark: #0e0e0e;
     --Accent: #00aaaa;
+    --Shadow: rgba(242, 242, 242, 0.15);
     color: var(--Text);
     background-color: var(--BGdark);
   }
@@ -92,8 +102,7 @@ b {
   --BGdark: #e6e6e6;
   --BGlight: #f2f2f2;
   --Accent: #2ec2c2;
-  --Light: hsl(0, 0%, 90%);
-  --Dark: #0e0e0e;
+  --Shadow: rgba(14, 14, 14, 0.15);
 
   background-color: var(--BGdark);
 }
@@ -104,6 +113,7 @@ b {
   --BGlight: #181818;
   --BGdark: #0e0e0e;
   --Accent: #00aaaa;
+  --Shadow: rgba(242, 242, 242, 0.15);
 
   background-color: var(--BGdark);
 }

@@ -10,7 +10,7 @@
   border-radius: 10px;
   background-color: var(--Heading);
   transition: 0.4s;
-  z-index: 1;
+  z-index: 2;
 }
 
 /* Rotate first bar */

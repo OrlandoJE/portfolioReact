@@ -10,6 +10,14 @@
   width: 40svw;
 }
 
+.Proyecto img.leftImg {
+  border-radius: 20px 0px 0px 20px;
+}
+
+.Proyecto img.rightImg {
+  border-radius: 0px 20px 20px 0px;
+}
+
 .Proyecto .desc {
   width: 490px;
   display: flex;
@@ -35,8 +43,19 @@
     gap: 20px;
   }
 
+  .Proyecto.rightDesc {
+    flex-direction: column-reverse;
+  }
+
   .Proyecto img {
     width: 100%;
+  }
+
+  .Proyecto img.leftImg {
+    border-radius: 20px 20px 20px 20px;
+  }
+
+  .Proyecto img.rightImg {
     border-radius: 20px 20px 20px 20px;
   }
 
