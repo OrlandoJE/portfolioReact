@@ -13,8 +13,8 @@ export const AboutMe = () => {
         <p>
           Apasionado por la música, el <b>diseño</b> y la <b>programación</b>.
           Me gusta estar constantemente aprendiendo. Me interesé por el{' '}
-          <b>desarrollo web</b> por la oportunidad que me da de diseñar{' '}
-          <b>interfaces</b> y <b>experiencias de usiario</b>. Soy un estudiante
+          <b>desarrollo web</b> por la oportunidad que brinda de diseñar{' '}
+          <b>interfaces</b> y <b>experiencias de usuario</b>. Soy un estudiante
           que reside en Guadalajara, Jalisco.
         </p>
       </div>
