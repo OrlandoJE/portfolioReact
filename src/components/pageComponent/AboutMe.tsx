@@ -1,7 +1,7 @@
 // Styles
 import './AboutMe.css';
 // Assets
-import Laptop from '../../assets/Laptop.png';
+import Laptop from '../../assets/Laptop.webp';
 
 export const AboutMe = () => {
   return (

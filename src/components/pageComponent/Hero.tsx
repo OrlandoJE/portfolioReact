@@ -1,7 +1,7 @@
 // Styles
 import './Hero.css';
 // Assets
-import Orlando from '../../assets/Orlando.jpg';
+import Orlando from '../../assets/Orlando.webp';
 // Icons
 import Figma from '../../assets/TechIcons/iconFigma.svg';
 import HTML5 from '../../assets/TechIcons/iconHTML5.svg';
