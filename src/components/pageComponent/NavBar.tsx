@@ -7,6 +7,7 @@ import { HamburgerMenu } from '../objectComponent/HamburgerMenu';
 import { GitHubIcon } from '../../assets/TSXicons/GitHubIcon';
 import { LinkedInIcon } from '../../assets/TSXicons/LinkedInIcon';
 import { DarkModeIcon } from '../../assets/TSXicons/DarkModeIcon';
+import { OrlandoJimenez } from '../../assets/TSXicons/OrlandoJimenez';
 
 export const NavBar = () => {
   return (
@@ -19,6 +20,7 @@ export const NavBar = () => {
         }}
         className='logo'
       >
+        <OrlandoJimenez />
         Orlando
       </Link>
       <div className='navigation'>
