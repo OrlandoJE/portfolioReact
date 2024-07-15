@@ -14,6 +14,11 @@ interface ProjectProps {
 }
 
 export const Project = (props: ProjectProps) => {
+  console.log(props.id)
+  function imgSource(imagePath: string) {
+    return new URL(`../../../public/Projects/${imagePath}`, import.meta.url)
+      .href;
+  }
   return (
     <div
       className={`project ${props.id % 2 === 0 && 'rightDesc'}`}
@@ -21,7 +26,11 @@ export const Project = (props: ProjectProps) => {
     >
       {props.id % 2 === 1 ? (
         <>
-          <img src={props.image} alt={props.imgTitle} className='leftImg' />
+          <img
+            src={imgSource(props.image)}
+            alt={props.imgTitle}
+            className='leftImg'
+          />
           <div
             className='desc'
             style={{ textAlign: 'left', alignItems: 'flex-start' }}
@@ -73,7 +82,11 @@ export const Project = (props: ProjectProps) => {
               /> */}
             </div>
           </div>
-          <img src={props.image} alt={props.imgTitle} className='rightImg' />
+          <img
+            src={imgSource(props.image)}
+            alt={props.imgTitle}
+            className='rightImg'
+          />
         </>
       )}
     </div>

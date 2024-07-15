@@ -4,7 +4,7 @@
     "title": "LogisNay",
     "subtitle": "Página Web para Empresa de Logística",
     "description": "Desarrollo de un sitio web estático para la empresa de logística LogisNay. La página proporciona información detallada sobre los servicios de la empresa y permite a los usuarios enviar correos electrónicos como método de contacto, utilizando PHP para el envío de los mismos.",
-    "image": "https://raw.githubusercontent.com/OrlandoJE/portfolio/9e6e2ae194b6a2587fe29841ea50deba318b762e/src/assets/Projects/Logisnay.webp",
+    "image": "Logisnay.webp",
     "imgTitle": "LogisNay",
     "link": "https://logisnay.com"
   }
