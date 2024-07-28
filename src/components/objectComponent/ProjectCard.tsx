@@ -18,7 +18,7 @@ export const ProjectCard = (props: ProjectProps) => {
       .href;
   }
   return (
-    <Link to={props.link} className='projectCard'>
+    <Link to={props.link} className='projectCard' target='_blank'>
       <img src={imgSource(props.image)} alt={props.imgTitle} />
       <div className='techStack desc'>
         <div className='techStackContainer'>
