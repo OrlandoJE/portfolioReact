@@ -20,6 +20,7 @@ export const ExperiencePage = () => {
             image={experience.image}
             imgTitle={experience.imgTitle}
             link={experience.link}
+            techStack={experience.techStack}
           />
         ))
         .reverse()}
