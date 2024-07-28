@@ -39,17 +39,17 @@ export const HamburgerMenu = () => {
           to={'/portfolio'}
           onClick={() => {
             setIsActive(!isActive);
-            const element = document.querySelector('.aboutMe');
+            const element = document.querySelector('.experience');
             element?.scrollIntoView({ behavior: 'smooth' });
           }}
         >
-          Acerca de mí
+          Experiencia
         </Link>
         <Link
           to={'/portfolio'}
           onClick={() => {
             setIsActive(!isActive);
-            const element = document.querySelector('.projects');
+            const element = document.querySelector('.project');
             element?.scrollIntoView({ behavior: 'smooth' });
           }}
         >

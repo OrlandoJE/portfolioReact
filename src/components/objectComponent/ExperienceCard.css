@@ -1,24 +1,33 @@
-.project {
+.experienceCard {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 50px;
-  align-self: stretch;
+  transition: all 0.5s;
+  border-radius: 20px;
+  width: fit-content;
 }
 
-.project img {
+.experienceCard:hover {
+  transform: scale(1.015);
+  box-shadow: 0px 0px 6px 2px var(--Shadow);
+  background: rgba(127, 127, 127, 0.1);
+}
+
+.experienceCard img {
   width: 40svw;
+  transition: all 0.5s;
 }
 
-.project img.leftImg {
+.experienceCard img.leftImg {
   border-radius: 20px 0px 0px 20px;
 }
 
-.project img.rightImg {
+.experienceCard img.rightImg {
   border-radius: 0px 20px 20px 0px;
 }
 
-.project .desc {
+.experienceCard .desc {
   width: 490px;
   display: flex;
   flex-direction: column;
@@ -27,39 +36,40 @@
   align-self: stretch;
 }
 
-.project p {
+.experienceCard p {
   align-self: stretch;
+  text-wrap: balance;
 }
 
-.project .buttons {
+.experienceCard .buttons {
   display: flex;
   align-items: center;
   gap: 20px;
 }
 
 @media (max-width: 1000px) {
-  .project {
+  .experienceCard {
     flex-direction: column;
     gap: 20px;
   }
 
-  .project.rightDesc {
+  .experienceCard.rightDesc {
     flex-direction: column-reverse;
   }
 
-  .project img {
+  .experienceCard img {
     width: 100%;
   }
 
-  .project img.leftImg {
+  .experienceCard img.leftImg {
     border-radius: 20px 20px 20px 20px;
   }
 
-  .project img.rightImg {
+  .experienceCard img.rightImg {
     border-radius: 20px 20px 20px 20px;
   }
 
-  .project .desc {
+  .experienceCard .desc {
     width: 100%;
   }
 }

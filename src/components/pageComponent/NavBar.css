@@ -1,4 +1,4 @@
-.navBar {
+nav {
   position: fixed;
   display: flex;
   align-items: center;
@@ -11,22 +11,22 @@
 
   z-index: 999;
 }
-.navBar .logo {
+nav .logo {
   color: var(--Heading);
   font-size: 1.5rem;
   font-weight: 600;
   display: flex;
   align-items: center;
 }
-.navBar .logo:hover, .navBar .logo:hover svg {
+nav .logo:hover, nav .logo:hover svg {
   color: var(--Accent);
   fill: var(--Accent);
 }
-.navBar .logo svg {
+nav .logo svg {
   height: 2rem;
   margin-right: 0.5rem; 
 }
-.navBar .navigation {
+nav .navigation {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,7 +35,10 @@
   font-size: 15px;
   font-weight: 400;
 }
-.navBar .social {
+nav .navigation a:hover {
+  border-bottom: 2px solid var(--Accent);
+}
+nav .social {
   display: flex;
   width: 6.5rem;
   height: 1.5rem;
@@ -43,24 +46,24 @@
   gap: 1rem;
 }
 
-.navBar svg {
+nav svg {
   fill: var(--Heading);
   transition: all 0.2 ease-in-out;
 }
-.navBar svg:hover {
+nav svg:hover {
   fill: var(--Accent);
 }
 
 @media (max-width: 1000px) {
-  .navBar {
+  nav {
     width: calc(100% - 2.5rem * 2);
     padding: 1rem 2.5rem;
     justify-content: space-between;
   }
-  .navBar .navigation {
+  nav .navigation {
     display: none;
   }
-  .navBar .social {
+  nav .social {
     display: none;
   }
 }

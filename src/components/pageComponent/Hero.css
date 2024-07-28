@@ -1,42 +1,42 @@
-.hero {
+header {
   display: flex;
   padding: calc(100px + 4rem) 0 100px 0;
   flex-direction: column;
   align-items: center;
   gap: 86px;
 }
-.hero .yo {
+header article.me {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 42px;
 }
 
-.hero .yo img {
+header article.me img {
   width: 414px;
   border-radius: 15px;
 }
 
-.hero .desc {
+header article.me .desc {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 22px;
 }
 
-.hero p {
+header article.me p {
   text-align: left;
   width: 439px;
   height: 46px;
 }
 
-.hero .buttons {
+header article.me .buttons {
   display: flex;
   align-items: flex-start;
   gap: 2rem;
 }
 
-.hero .tech {
+header article.tech {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -44,82 +44,85 @@
   width: 70%;
 }
 
-.hero .techText {
+header article.tech .techText {
   display: flex;
   align-items: center;
   gap: 30px;
 }
 
-.hero span {
+header article.tech span {
   color: var(--Heading);
   font-size: 14px;
   font-weight: 600;
 }
 
-.hero .verticalLine {
+header article.tech .verticalLine {
   width: 1px;
   height: 30px;
   background: var(--Heading);
 }
 
-.hero .techs {
+header article.tech .techs {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   gap: 80px;
 }
+header article.tech .techs img {
+  transition: 0.4s;
+}
+header article.tech .techs img:hover {
+  transform: scale(1.25);
+}
 
 @media (max-width: 1000px) {
-  .hero {
+  header {
     padding: 100px 0 100px 0;
     gap: 42px;
   }
 
-  .hero .yo {
+  header article.me {
     text-align: center;
     flex-direction: column-reverse;
     gap: 42px;
   }
 
-  .hero .yo img {
+  header article.me img {
     width: 60%;
   }
-  .hero p {
+  header article.me p {
     margin-bottom: 3rem;
-  }
-
-  .hero .desc {
-    align-items: center;
-    gap: 22px;
-  }
-
-  .hero p {
     width: 80%;
     text-align: center;
   }
 
-  .hero .buttons {
+  header article.me .desc {
+    align-items: center;
+    gap: 22px;
+  }
+
+  header article.me .buttons {
     flex-direction: column;
     align-items: center;
     gap: 1rem;
   }
 
-  .hero .tech {
+  header article.tech {
     flex-direction: column;
     gap: 42px;
   }
 
-  .hero .techText {
+  header article.tech .techText {
     flex-direction: column;
     gap: 15px;
   }
 
-  .hero .verticalLine {
+  header article.tech .verticalLine {
     display: none;
   }
 
-  .hero .techs {
+  header article.tech .techs {
     justify-content: center;
     width: 80%;
     flex-wrap: wrap;

@@ -1,9 +1,10 @@
 // Styles
-import './Project.css';
+import './ExperienceCard.css';
 // Components
 import { Button } from './Button';
+import { TechStackDisplayer } from './TechStackDisplayer';
 
-interface ProjectProps {
+interface ExperienceProps {
   id: number;
   title: string;
   subtitle: string;
@@ -11,32 +12,33 @@ interface ProjectProps {
   image: string;
   imgTitle: string;
   link: string;
+  techStack: string[];
 }
 
-export const Project = (props: ProjectProps) => {
-  console.log(props.id)
+export const ExperienceCard = (props: ExperienceProps) => {
   function imgSource(imagePath: string) {
-    return new URL(`../../../public/Projects/${imagePath}`, import.meta.url)
+    return new URL(`../../../public/Experience/${imagePath}`, import.meta.url)
       .href;
   }
   return (
     <div
-      className={`project ${props.id % 2 === 0 && 'rightDesc'}`}
+      className={`experienceCard ${props.id % 2 === 0 && 'rightDesc'}`}
       id={props.id.toString()}
     >
       {props.id % 2 === 1 ? (
-        <>
+        <>  
           <img
             src={imgSource(props.image)}
             alt={props.imgTitle}
             className='leftImg'
           />
-          <div
+          <section
             className='desc'
             style={{ textAlign: 'left', alignItems: 'flex-start' }}
           >
             <h4>{props.subtitle}</h4>
             <h2>{props.title}</h2>
+            <TechStackDisplayer techStack={props.techStack} />
             <p>{props.description}</p>
             <div className='buttons'>
               <Button
@@ -47,18 +49,12 @@ export const Project = (props: ProjectProps) => {
                   window.open(props.link, '_blank');
                 }}
               />
-              {/* <Button
-                class="secundary"
-                text="Más..."
-                visit={true}
-                click={() => {}}
-              /> */}
             </div>
-          </div>
+          </section>
         </>
       ) : (
         <>
-          <div
+          <section
             className='desc'
             style={{ textAlign: 'right', alignItems: 'flex-end' }}
           >
@@ -74,14 +70,8 @@ export const Project = (props: ProjectProps) => {
                   window.open(props.link, '_blank');
                 }}
               />
-              {/* <Button
-                class="secundary"
-                text="Más..."
-                visit={true}
-                click={() => {}}
-              /> */}
             </div>
-          </div>
+          </section>
           <img
             src={imgSource(props.image)}
             alt={props.imgTitle}

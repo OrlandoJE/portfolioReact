@@ -1,0 +1,14 @@
+.techStackContainer {
+  margin-bottom: 0.5rem;
+}
+.techStackContainer span {
+  box-shadow: 0px 0px 6px 2px var(--Shadow);
+  margin: 0.2rem 0.5rem;
+  padding: 0.2rem 0.6rem;
+  border-radius: 20px;
+  transition: all 0.4s;
+}
+.techStackContainer span:hover {
+  transform: scale(1.015);
+  background: rgba(128, 128, 128, 0.1);
+}

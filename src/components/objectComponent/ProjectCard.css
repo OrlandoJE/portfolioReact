@@ -1,0 +1,33 @@
+.projectCard {
+  overflow: hidden;
+  border-radius: 20px;
+  width: 400px;
+  transition: all 0.4s;
+}
+.projectCard:hover {
+  transform: scale(1.015);
+  background-color: var(--BGlight);
+  box-shadow: 0px 0px 6px 2px var(--Shadow);
+}
+.projectCard img {
+  width: 400px;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+.projectCard p {
+  text-wrap: balance;
+}
+.projectCard .desc {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.techStackContainer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 1rem;
+  row-gap: 0.5rem;
+}

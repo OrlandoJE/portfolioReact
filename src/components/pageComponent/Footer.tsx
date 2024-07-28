@@ -3,13 +3,16 @@ import { Link } from 'react-router-dom';
 import './Footer.css';
 // Icons
 import { GitHubIcon } from '../../assets/TSXicons/GitHubIcon';
-import { LinkedInIcon } from '../../assets/TSXicons/LinkedInIcon';
+// import { LinkedInIcon } from '../../assets/TSXicons/LinkedInIcon';
 
 export const Footer = () => {
   return (
-    <div className='footer'>
-      <span>Copyright © 2024. All rights are reserved</span>
-      <div className='socialLinks'>
+    <footer className='footer'>
+      <Link className='githubCode' to={'https://github.com/OrlandoJE/portfolio'} target='_blank'>
+        <GitHubIcon />
+        Código de GitHub
+      </Link>
+      {/* <div className='socialLinks'>
         <Link to={'https://github.com/OrlandoJE'} target='_blank'>
           <GitHubIcon />
         </Link>
@@ -20,7 +23,7 @@ export const Footer = () => {
         >
           <LinkedInIcon />
         </Link>
-      </div>
-    </div>
+      </div> */}
+    </footer>
   );
 };

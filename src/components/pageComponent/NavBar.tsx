@@ -11,7 +11,7 @@ import { OrlandoJimenez } from '../../assets/TSXicons/OrlandoJimenez';
 
 export const NavBar = () => {
   return (
-    <div className='navBar'>
+    <nav>
       <Link
         to={'/portfolio'}
         onClick={() => {
@@ -23,7 +23,7 @@ export const NavBar = () => {
         <OrlandoJimenez />
         Orlando
       </Link>
-      <div className='navigation'>
+      <section className='navigation'>
         <Link
           to={'/portfolio'}
           onClick={() => {
@@ -36,35 +36,24 @@ export const NavBar = () => {
         <Link
           to={'/portfolio'}
           onClick={() => {
-            const element = document.querySelector('.aboutMe');
+            const element = document.querySelector('.experience');
             element?.scrollIntoView({ behavior: 'smooth' });
           }}
         >
-          Acerca de mí
+          Experiencia
         </Link>
         <Link
           to={'/portfolio'}
           onClick={() => {
-            const element = document.querySelector('.projects');
+            const element = document.querySelector('.project');
             element?.scrollIntoView({ behavior: 'smooth' });
           }}
         >
           Proyectos
         </Link>
-        <Link
-          to={'/portfolio'}
-          onClick={() => {
-            const dialog = document.querySelector(
-              '.dialogContact'
-            ) as HTMLDialogElement;
-            dialog?.showModal();
-          }}
-        >
-          Contacto
-        </Link>
-      </div>
+      </section>
 
-      <div className='social'>
+      <section className='social'>
         <Link to={'#'}>
           <DarkModeIcon />
         </Link>
@@ -79,9 +68,9 @@ export const NavBar = () => {
         >
           <LinkedInIcon />
         </Link>
-      </div>
+      </section>
 
       <HamburgerMenu />
-    </div>
+    </nav>
   );
 };

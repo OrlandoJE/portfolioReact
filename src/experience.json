@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "title": "LogisNay",
+    "subtitle": "Página Web para Empresa de Logística",
+    "description": "Desarrollo de un sitio web estático para la empresa de logística LogisNay. La página proporciona información detallada sobre los servicios de la empresa y permite a los usuarios contactar a la empresa a través de un formulario de contacto.",
+    "image": "Logisnay.webp",
+    "imgTitle": "LogisNay",
+    "link": "https://logisnay.com",
+    "techStack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "PHP"
+    ]
+  }
+]
