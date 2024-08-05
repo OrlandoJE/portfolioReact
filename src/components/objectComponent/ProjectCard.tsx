@@ -1,6 +1,7 @@
 import './ProjectCard.css';
 import { Link } from 'react-router-dom';
 import { TechStackDisplayer } from './TechStackDisplayer';
+import { LinkIcon } from '../../assets/TSXicons/LinkIcon';
 
 interface ProjectProps {
   id: number;
@@ -24,7 +25,10 @@ export const ProjectCard = (props: ProjectProps) => {
         <div className='techStackContainer'>
           <TechStackDisplayer techStack={props.techStack} />
         </div>
-        <h3>{props.title}</h3>
+        <h3>
+          {props.title}
+          <LinkIcon />
+        </h3>
         <p>{props.description}</p>
       </div>
     </Link>

@@ -6,6 +6,7 @@
   transition: all 0.5s;
   border-radius: 20px;
   width: fit-content;
+  cursor: default;
 }
 
 .experienceCard:hover {
@@ -34,6 +35,7 @@
   justify-content: center;
   gap: 10px;
   align-self: stretch;
+  padding: 1rem 0.5rem;
 }
 
 .experienceCard p {
@@ -71,5 +73,9 @@
 
   .experienceCard .desc {
     width: 100%;
+  }
+
+  .experienceCard .desc .buttons {
+    align-self: center;
   }
 }

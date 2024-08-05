@@ -3,15 +3,30 @@
   border-radius: 20px;
   width: 400px;
   transition: all 0.4s;
+  cursor: pointer;
+  position: relative;
 }
 .projectCard:hover {
   transform: scale(1.015);
   background-color: var(--BGlight);
   box-shadow: 0px 0px 6px 2px var(--Shadow);
 }
+.projectCard:hover svg {
+  transform: scale(1.2);
+}
 .projectCard img {
   width: 400px;
   mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+.projectCard svg {
+  stroke: var(--Heading);
+  fill: var(--Heading);
+  width: 1.5rem;
+}
+.projectCard h3 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 .projectCard p {
   text-wrap: balance;

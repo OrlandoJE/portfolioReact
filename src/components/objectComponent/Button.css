@@ -64,6 +64,7 @@ button.tertiary:hover {
 
 button svg {
   stroke: var(--Light);
+  width: 1.2rem;
   transition: all 0.2s ease-in-out;
 }
 button:hover svg {

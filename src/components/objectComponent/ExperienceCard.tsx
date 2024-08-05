@@ -26,7 +26,7 @@ export const ExperienceCard = (props: ExperienceProps) => {
       id={props.id.toString()}
     >
       {props.id % 2 === 1 ? (
-        <>  
+        <>
           <img
             src={imgSource(props.image)}
             alt={props.imgTitle}
