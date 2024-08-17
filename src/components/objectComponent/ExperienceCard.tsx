@@ -43,7 +43,7 @@ export const ExperienceCard = (props: ExperienceProps) => {
             <div className='buttons'>
               <Button
                 class='primary'
-                text='Visitar'
+                text='Visit'
                 visit={true}
                 click={() => {
                   window.open(props.link, '_blank');

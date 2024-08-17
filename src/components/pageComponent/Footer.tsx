@@ -10,7 +10,7 @@ export const Footer = () => {
     <footer className='footer'>
       <Link className='githubCode' to={'https://github.com/OrlandoJE/portfolio'} target='_blank'>
         <GitHubIcon />
-        Código de GitHub
+        Source Code on GitHub
       </Link>
       {/* <div className='socialLinks'>
         <Link to={'https://github.com/OrlandoJE'} target='_blank'>

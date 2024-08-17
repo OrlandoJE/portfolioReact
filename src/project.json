@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Social Media Project",
-    "description": "Desarrollo de un proyecto de red social utilizando React y Firebase. La página permite a los usuarios registrarse e iniciar sesión con su cuenta de Google, crear publicaciones y dar me gusta.",
+    "description": "Development of a social network project using React, TailwindCSS and Firebase. The page allows users to register and log in with their Google account, create posts and give likes.",
     "image": "SocialMediaProject.webp",
     "imgTitle": "Social Media Project",
     "link": "https://socialmedia-d4032.web.app/",

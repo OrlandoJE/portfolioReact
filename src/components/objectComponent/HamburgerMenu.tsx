@@ -33,7 +33,7 @@ export const HamburgerMenu = () => {
             element?.scrollIntoView({ behavior: 'smooth' });
           }}
         >
-          Inicio
+          Home
         </Link>
         <Link
           to={'/portfolio'}
@@ -43,7 +43,7 @@ export const HamburgerMenu = () => {
             element?.scrollIntoView({ behavior: 'smooth' });
           }}
         >
-          Experiencia
+          Experience
         </Link>
         <Link
           to={'/portfolio'}
@@ -53,7 +53,7 @@ export const HamburgerMenu = () => {
             element?.scrollIntoView({ behavior: 'smooth' });
           }}
         >
-          Proyectos
+          Projects
         </Link>
         <Link
           to={'/portfolio'}
@@ -65,7 +65,7 @@ export const HamburgerMenu = () => {
             dialog?.showModal();
           }}
         >
-          Contacto
+          Contact Me
         </Link>
 
         <Link

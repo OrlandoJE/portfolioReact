@@ -10,7 +10,7 @@ export const Experience = () => {
   const slicedExperienceData = [...experienceData].reverse().slice(0, 3);
   return (
     <article className='experience'>
-      <h2>Experiencia</h2>
+      <h2>Experience</h2>
       {slicedExperienceData.map((experience) => (
         <ExperienceCard
           key={experience.id}

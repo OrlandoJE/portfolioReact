@@ -25,7 +25,7 @@ export const DialogContact = () => {
         X
       </button>
       <div className='contact'>
-        <h2>Contáctame</h2>
+        <h2>Contact Me</h2>
         <div className='contactMethods'>
           <div
             className='contactMethod location'
@@ -38,7 +38,7 @@ export const DialogContact = () => {
           >
             <LocationIcon />
             <div className='locationText'>
-              <h4>Ubicación</h4>
+              <h4>Location</h4>
               <span>Guadalajara, Jalisco</span>
             </div>
           </div>

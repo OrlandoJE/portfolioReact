@@ -6,7 +6,7 @@ export const Project = () => {
   const slicedProjectData = [...projectData].reverse().slice(0, 6);
   return (
     <article className='project'>
-      <h2>Proyectos</h2>
+      <h2>Projects</h2>
       <div className='projectContainer'>
         {slicedProjectData.map((project) => (
           <ProjectCard

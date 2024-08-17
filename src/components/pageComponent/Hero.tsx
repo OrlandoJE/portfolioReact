@@ -18,14 +18,14 @@ export const Hero = () => {
     <header className='hero'>
       <article className='me'>
         <section className='desc'>
-          <h1>Desarrollador Web</h1>
+          <h1>Web Developer</h1>
           <p>
-            Hola, soy Orlando Jiménez. Un desarrollador Front-End que reside en
-            Jalisco, México.
+            Hi, I'm Orlando Jimenez. A Front-End web developer based in Jalisco,
+            Mexico.
           </p>
           <div className='buttons'>
             <Button
-              text={'Contáctame'}
+              text={'Contact Me'}
               class={'primary'}
               click={() => {
                 const dialog = document.querySelector(
@@ -35,7 +35,7 @@ export const Hero = () => {
               }}
             />
             <Button
-              text={'Experiencia'}
+              text={'Experience'}
               class={'secundary'}
               click={() => {
                 document
@@ -50,7 +50,7 @@ export const Hero = () => {
 
       <article className='tech'>
         <section className='techText'>
-          <span>Tecnologías</span>
+          <span>Tech Stack</span>
           <div className='verticalLine'></div>
         </section>
 

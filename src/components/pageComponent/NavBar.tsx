@@ -31,7 +31,7 @@ export const NavBar = () => {
             element?.scrollIntoView({ behavior: 'smooth' });
           }}
         >
-          Inicio
+          Home
         </Link>
         <Link
           to={'/portfolio'}
@@ -40,7 +40,7 @@ export const NavBar = () => {
             element?.scrollIntoView({ behavior: 'smooth' });
           }}
         >
-          Experiencia
+          Experience
         </Link>
         <Link
           to={'/portfolio'}
@@ -49,7 +49,7 @@ export const NavBar = () => {
             element?.scrollIntoView({ behavior: 'smooth' });
           }}
         >
-          Proyectos
+          Projects
         </Link>
       </section>
 
