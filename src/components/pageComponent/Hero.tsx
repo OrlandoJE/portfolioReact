@@ -12,6 +12,7 @@ import TS from '../../assets/TechIcons/iconTS.svg';
 import TailWindCSS from '../../assets/TechIcons/iconTailWindCSS.svg';
 // Components
 import { Button } from '../objectComponent/Button';
+import CV from '/CV Web Developer Orlando Jiménez.pdf';
 
 export const Hero = () => {
   return (
@@ -35,7 +36,7 @@ export const Hero = () => {
               }}
             />
             <button className='secondary'>
-              <a href='/CV Web Developer Orlando Jiménez.pdf'>Download CV</a>
+              <a href={CV} download={'CV Web Developer Orlando Jiménez'}>Download CV</a>
             </button>
           </div>
         </section>
