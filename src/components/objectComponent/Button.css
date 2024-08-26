@@ -31,7 +31,7 @@ button.visit.primary {
   gap: 8px;
 }
 
-button.secundary {
+button.secondary {
   color: var(--Heading);
   border-color: var(--Heading);
   background-color: transparent;
@@ -39,14 +39,14 @@ button.secundary {
   box-shadow: 0px 0px 2px 2px var(--Shadow);
 }
 
-button.visit.secundary {
+button.visit.secondary {
   padding: 0;
   width: 150px;
   height: 45px;
   box-shadow: 0px 0px 2px 2px var(--Shadow);
 }
 
-button.secundary:hover {
+button.secondary:hover {
   border-color: transparent;
 }
 

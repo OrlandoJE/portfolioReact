@@ -34,15 +34,9 @@ export const Hero = () => {
                 dialog?.showModal();
               }}
             />
-            <Button
-              text={'Experience'}
-              class={'secundary'}
-              click={() => {
-                document
-                  .querySelector('.experience')
-                  ?.scrollIntoView({ behavior: 'smooth' });
-              }}
-            />
+            <button className='secondary'>
+              <a href='/CV Web Developer Orlando Jiménez.pdf'>Download CV</a>
+            </button>
           </div>
         </section>
         <img src={Orlando} alt='Orlando' />

@@ -27,7 +27,7 @@ export const Experience = () => {
       {experienceData.length > 3 && (
         <Button
           text='Ver Más...'
-          class='secundary'
+          class='secondary'
           click={() => {
             const dialog = document.querySelector(
               '.dialogProjectsPage'

@@ -3,7 +3,7 @@ import { LinkIcon } from '../../assets/TSXicons/LinkIcon';
 
 interface ButtonProps {
   text: string;
-  class: 'primary' | 'secundary' | 'tertiary';
+  class: 'primary' | 'secondary' | 'tertiary';
   click?: () => void;
   visit?: boolean;
 }

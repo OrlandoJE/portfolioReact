@@ -76,6 +76,11 @@ header article.tech .techs img:hover {
   transform: scale(1.25);
 }
 
+button a:hover {
+  text-decoration: none;
+  color: var(--Light);
+}
+
 @media (max-width: 1000px) {
   header {
     padding: 100px 0 100px 0;
