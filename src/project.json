@@ -1,16 +1,22 @@
 [
   {
-    "id": 1,
+    "type": "Project",
     "title": "Social Media Project",
     "description": "Development of a social network project using React, TailwindCSS and Firebase. The page allows users to register and log in with their Google account, create posts and give likes.",
     "image": "SocialMediaProject.webp",
     "imgTitle": "Social Media Project",
     "link": "https://socialmedia-d4032.web.app/",
-    "techStack": [
-      "React",
-      "TailwindCSS",
-      "TypeScript",
-      "Firebase"
-    ]
+    "sourceCode": "https://github.com/OrlandoJE/socialMediaProject",
+    "techStack": ["React", "TailwindCSS", "TypeScript", "Firebase"]
+  },
+  {
+    "type": "Contribution",
+    "title": "Stack Sorted",
+    "description": "Contribution to an open-source project that categorizes websites, made by Juxtopposed. Through PR #56 I made sidebar and main-grid scrollable for better UX.",
+    "image": "StackSorted.webp",
+    "imgTitle": "Social Media Project",
+    "link": "https://stacksorted.com/",
+    "sourceCode": "https://github.com/juxtopposed/stacksorted/pull/56",
+    "techStack": ["Svelte", "HTML", "CSS", "JavaScript"]
   }
 ]

@@ -9,7 +9,7 @@
   --Dark: #0e0e0e;
   --Shadow: rgba(14, 14, 14, 0.15);
 
-  font-family: Poppins;
+  font-family: Onest;
   line-height: 1.5;
   font-weight: 400;
 
@@ -109,4 +109,16 @@ svg {
   --Shadow: rgba(242, 242, 242, 0.15);
 
   background-color: var(--BGdark);
+}
+
+.backgroundEffect {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background: radial-gradient(
+      ellipse 80% 80% at 50% -20%,
+      rgba(125, 125, 125, 0.2),
+      rgba(14, 14, 14, 0)
+    );
 }

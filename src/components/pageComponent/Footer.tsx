@@ -16,18 +16,6 @@ export const Footer = () => {
         <GitHubIcon />
         Source Code on GitHub
       </Link>
-      {/* <div className='socialLinks'>
-        <Link to={'https://github.com/OrlandoJE'} target='_blank'>
-          <GitHubIcon />
-        </Link>
-
-        <Link
-          to={'https://www.linkedin.com/in/orlandojimenezesparza/'}
-          target='_blank'
-        >
-          <LinkedInIcon />
-        </Link>
-      </div> */}
     </footer>
   );
 };
