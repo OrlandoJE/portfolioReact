@@ -5,6 +5,7 @@ nav {
   justify-content: space-between;
   width: calc(100% - 12rem * 2);
   padding: 1rem 12rem;
+  border-radius: 0 0 20px 20px;
 
   background: var(--BGlight);
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.15);
