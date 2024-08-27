@@ -26,7 +26,7 @@ export const HamburgerMenu = () => {
 
       <div className={`menu ${isActive ? 'active' : ''}`}>
         <Link
-          to={'/portfolio'}
+          to={'/portfolioReact'}
           onClick={() => {
             setIsActive(!isActive);
             const element = document.querySelector('.hero');
@@ -36,7 +36,7 @@ export const HamburgerMenu = () => {
           Home
         </Link>
         <Link
-          to={'/portfolio'}
+          to={'/portfolioReact'}
           onClick={() => {
             setIsActive(!isActive);
             const element = document.querySelector('.experience');
@@ -46,7 +46,7 @@ export const HamburgerMenu = () => {
           Experience
         </Link>
         <Link
-          to={'/portfolio'}
+          to={'/portfolioReact'}
           onClick={() => {
             setIsActive(!isActive);
             const element = document.querySelector('.project');
@@ -56,7 +56,7 @@ export const HamburgerMenu = () => {
           Projects
         </Link>
         <Link
-          to={'/portfolio'}
+          to={'/portfolioReact'}
           onClick={() => {
             setIsActive(!isActive);
             const dialog = document.querySelector(

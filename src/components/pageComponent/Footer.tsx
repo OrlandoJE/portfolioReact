@@ -8,7 +8,11 @@ import { GitHubIcon } from '../../assets/TSXicons/GitHubIcon';
 export const Footer = () => {
   return (
     <footer className='footer'>
-      <Link className='githubCode' to={'https://github.com/OrlandoJE/portfolio'} target='_blank'>
+      <Link
+        className='githubCode'
+        to={'https://github.com/OrlandoJE/portfolioReact'}
+        target='_blank'
+      >
         <GitHubIcon />
         Source Code on GitHub
       </Link>

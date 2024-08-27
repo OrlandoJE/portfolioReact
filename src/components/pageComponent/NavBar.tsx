@@ -13,7 +13,7 @@ export const NavBar = () => {
   return (
     <nav>
       <Link
-        to={'/portfolio'}
+        to={'/portfolioReact'}
         onClick={() => {
           const element = document.querySelector('.hero');
           element?.scrollIntoView({ behavior: 'smooth' });
@@ -25,7 +25,7 @@ export const NavBar = () => {
       </Link>
       <section className='navigation'>
         <Link
-          to={'/portfolio'}
+          to={'/portfolioReact'}
           onClick={() => {
             const element = document.querySelector('.hero');
             element?.scrollIntoView({ behavior: 'smooth' });
@@ -34,7 +34,7 @@ export const NavBar = () => {
           Home
         </Link>
         <Link
-          to={'/portfolio'}
+          to={'/portfolioReact'}
           onClick={() => {
             const element = document.querySelector('.experience');
             element?.scrollIntoView({ behavior: 'smooth' });
@@ -43,7 +43,7 @@ export const NavBar = () => {
           Experience
         </Link>
         <Link
-          to={'/portfolio'}
+          to={'/portfolioReact'}
           onClick={() => {
             const element = document.querySelector('.project');
             element?.scrollIntoView({ behavior: 'smooth' });

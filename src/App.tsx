@@ -13,14 +13,17 @@ function App() {
       <Router>
         <NavBar />
         <Routes>
-          <Route path='/portfolio' element={<Homepage />} />
-          <Route path='/portfolio/experience' element={<ExperiencePage />} />
+          <Route path='/portfolioReact' element={<Homepage />} />
+          <Route
+            path='/portfolioReact/experience'
+            element={<ExperiencePage />}
+          />
           <Route
             path='*'
             element={
               <section style={{ textAlign: 'center', padding: '40vh 0' }}>
                 <h1>Page Not Found</h1> <br />
-                <Link to={'/portfolio'}>
+                <Link to={'/portfolioReact'}>
                   <button className={'primary'}>Return Home</button>
                 </Link>
               </section>
