@@ -10,7 +10,6 @@ import { ExperiencePage } from './pages/ExperiencePage';
 function App() {
   return (
     <>
-      <div className='backgroundEffect'>
         <Router>
           <NavBar />
           <Routes>
@@ -33,9 +32,7 @@ function App() {
           </Routes>
           <Footer />
         </Router>
-        {/* Dialogs / Modals */}
         <DialogContact />
-      </div>
     </>
   );
 }

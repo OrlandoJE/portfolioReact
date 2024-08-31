@@ -4,6 +4,7 @@
   width: 400px;
   transition: all 0.4s;
   position: relative;
+  cursor: default;
 }
 .projectCard:hover {
   transform: scale(1.015);

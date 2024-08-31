@@ -111,14 +111,3 @@ svg {
   background-color: var(--BGdark);
 }
 
-.backgroundEffect {
-  position: absolute;
-  top: 0;
-  width: 100vw;
-  height: 100vh;
-  background: radial-gradient(
-      ellipse 80% 80% at 50% -20%,
-      rgba(125, 125, 125, 0.2),
-      rgba(14, 14, 14, 0)
-    );
-}
