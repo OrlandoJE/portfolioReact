@@ -18,5 +18,15 @@
     "link": "https://stacksorted.com/",
     "sourceCode": "https://github.com/juxtopposed/stacksorted/pull/56",
     "techStack": ["Svelte", "HTML", "CSS", "JavaScript"]
+  },
+  {
+    "type": "Project",
+    "title": "devLib",
+    "description": "A library of resources for web developers, made with Astro and TailwindCSS. The project is hosted on Vercel and has a custom domain.",
+    "image": "devLib.webp",
+    "imgTitle": "devLib",
+    "link": "https://dev-lib-gamma.vercel.app/",
+    "sourceCode": "https://github.com/OrlandoJE/devLib",
+    "techStack": ["Astro", "TailwindCSS", "TypeScript"]
   }
 ]

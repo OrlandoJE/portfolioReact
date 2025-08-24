@@ -2,9 +2,9 @@
   {
     "id": 1,
     "title": "LogisNay",
-    "subtitle": "Web Page for Logistics Company",
-    "description": "Development of a static website for the logistics company LogisNay. The site provides detailed information about the company's services and allows users to contact the company through a contact form.",
-    "image": "Logisnay.webp",
+    "subtitle": "Lading Page",
+    "description": "LogisNay is a logistics company that needed a webpage to start their online presence and provide customer support. The case study covers color selection, tone of voice, typography, and overall visual design. Development was implemented using HTML, CSS, JavaScript, and PHP.",
+    "image": "logisnay.webp",
     "imgTitle": "LogisNay",
     "link": "https://logisnay.com",
     "techStack": [
@@ -12,6 +12,20 @@
       "CSS",
       "JavaScript",
       "PHP"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Jugamos Creando",
+    "subtitle": "E-commerce Website",
+    "description": "Jugamos Creando is a company that sells wooden toys aligned with the Montessori philosophy. The case of study includes the selection of the color palette, which uses neutral tones; product images were photographed, edited, and optimized for the web. Development was implemented with WordPress and WooCommerce.",
+    "image": "jugamos-creando.webp",
+    "imgTitle": "Jugamos Creando",
+    "link": "https://jugamoscreando.com/",
+    "techStack": [
+      "React.js",
+      "CSS",
+      "JavaScript"
     ]
   }
 ]

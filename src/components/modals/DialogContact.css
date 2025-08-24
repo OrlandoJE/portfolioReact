@@ -8,10 +8,16 @@
 }
 
 .dialogContact .closeButton {
+  color: grey;
   position: absolute;
   top: 0;
   right: 0;
   margin: 0;
+}
+
+.dialogContact .closeButton:hover {
+  color: white;
+  box-shadow: 0 0 4px 4px var(--Shadow);
 }
 
 .contact {
@@ -50,11 +56,18 @@
   transition: all 0.1s ease-in;
 }
 
+.contact .contactMethod svg,
+.contact .contactMethod h4,
+.contact .contactMethod span {
+  color: grey;
+  fill: grey;
+}
+
 .contact .contactMethod:hover svg,
 .contact .contactMethod:hover h4,
 .contact .contactMethod:hover span {
-  color: var(--Accent);
-  fill: var(--Accent);
+  color: white;
+  fill: white;
 }
 
 .contact .contactMethod svg {

@@ -35,7 +35,7 @@ export const ProjectCard = (props: ProjectProps) => {
         </Link>
         <p>{props.description}</p>
         <Link to={props.sourceCode} target='_blank'>
-          <span> - {props.type}</span>
+          <span> ~ {props.type}</span>
           <div className='githubCode'>
             <span>Code</span>
             <GitHubIcon />

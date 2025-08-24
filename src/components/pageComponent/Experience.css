@@ -1,23 +1,23 @@
 .experience {
-  width: calc(100% - 60px * 2);
-  padding: 150px 60px;
+  width: calc(100% - 4rem * 2);
+  padding: 16rem 4rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 7.5rem;
+  gap: 12rem;
   text-align: left;
 
-  border-radius: 20px;
+  border-radius: 1rem;
   background: var(--BGlight);
-  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 0.5rem 0px rgba(0, 0, 0, 0.15);
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 62.5rem) {
   .experience {
-    width: calc(100% - 25px * 2);
+    width: calc(100% - 1.5rem * 2);
     flex-direction: column;
     gap: 2.5rem;
-    padding: 100px 25px;
+    padding: 6rem 1.5rem;
   }
 }

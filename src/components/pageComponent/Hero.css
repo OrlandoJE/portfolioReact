@@ -1,9 +1,9 @@
 header {
   display: flex;
-  padding: calc(100px + 4rem) 0 100px 0;
+  padding: calc(1rem * 12 + 4rem) 0 calc(1rem * 12) 0;
   flex-direction: column;
   align-items: center;
-  gap: 86px;
+  gap: calc(1rem * 10);
 }
 header article.me {
   display: flex;

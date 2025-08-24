@@ -15,8 +15,8 @@ dialog {
   transition: all 0.5s;
 }
 dialog::backdrop {
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
 }
 dialog button.closeButton {
   position: fixed;
